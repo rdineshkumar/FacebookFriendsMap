@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:gravity="center" android:background="#234">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Facebook Friends Map" android:textStyle="bold" android:typeface="monospace" android:textSize="18dp" android:textColor="#F90" android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/progressText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please wait ..." android:layout_marginBottom="10dp"/>
+    <com.FBFriends.map.Facebook.LoginButton
+            android:id="@+id/fbLoginLutton"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/login"
+            android:text="Facebook Post"
+            android:visibility="invisible" >
+        </com.FBFriends.map.Facebook.LoginButton>
+
+</LinearLayout>
